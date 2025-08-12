@@ -3,5 +3,12 @@ background-color: rgb(255, 0, 0);
 color: darkgoldenrod;
 
 
+.container{
+max-width: 800px;
+margin:0 auto;
+text-align: justify;
+padding: 20px;
+}
+
 
 }
