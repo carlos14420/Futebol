@@ -25,7 +25,7 @@ body {
     padding: 30px; /* Espaçamento interno */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar efeito de flutuação */
     border-radius: 10px; /* Bordas arredondadas */
-    border: 1px solid #ddd; /* Borda suave */
+    border: 1px solid #ff0000; /* Borda suave */
     text-align: justify; /* Justifica o texto */
 }
 
