@@ -1,49 +1,7 @@
-/* Resetando margens e padding de todos os elementos */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Estilos do body para centralizar a página */
 body {
-    background-color: #ff0000; /* Cor de fundo suave */
-    display: flex;
-    justify-content: center; /* Alinha horizontalmente */
-    align-items: center; /* Alinha verticalmente */
-    height: 100vh;
-    font-family: 'Arial', sans-serif;
-}
+background-color: rgb(255, 0, 0);
+color: darkgoldenrod;
 
-/* "Livro" que vai centralizar a página */
-.book {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%; /* Ocupa toda a largura da tela */
-    height: 100vh; /* Ocupa toda a altura da tela */
-}
 
-/* A página de livro propriamente dita */
-.page {
-    background-color: rgb(255, 0, 0);
-    color: rgb(255, 255, 254);
-    width: 70%; /* Largura da página */
-    max-width: 900px; /* Largura máxima */
-    min-width: 600px; /* Largura mínima */
-    padding: 40px; /* Espaço interno da página */
-    margin: 50px; /* Margens para dar a sensação de estar no centro */
-    border: 1px solid #ddd; /* Borda suave */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Efeito de sombra */
-    border-radius: 15px; /* Bordas arredondadas */
-    text-align: justify; /* Alinha o texto de maneira justificada */
-    line-height: 1.8; /* Maior espaçamento entre as linhas */
-}
 
-/* Estilizando o título */
-h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 2rem; /* Tamanho do título */
-    color: #fff6f6;
 }
