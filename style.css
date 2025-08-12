@@ -1,36 +1,38 @@
+/* Resetando margens e paddings para todos os elementos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilizando o body para centralizar o conteúdo */
 body {
-    background-color: #f4f4f4;
+    background-color: #ff0000; /* Cor de fundo suave */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    justify-content: center; /* Alinha o conteúdo horizontalmente */
+    align-items: center; /* Alinha o conteúdo verticalmente */
+    height: 100vh; /* Faz o conteúdo ocupar 100% da altura da tela */
     font-family: 'Arial', sans-serif;
 }
 
+/* Estilo para o container, simulando a página de livro */
 .container {
-    background-color: #f70303;
-    color: ghostwhite;
-    width: 60%; 
-    max-width: 900px;
-    min-width: 600px;
-    padding: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    border: 1px solid #ddd;
-    text-align: justify;
+    background-color: #ff0000; /* Cor de fundo do conteúdo */
+    color: #fffefe; /* Cor do texto */
+    width: 60%; /* Largura da "página" (ajuste conforme preferir) */
+    max-width: 900px; /* Largura máxima */
+    min-width: 600px; /* Largura mínima */
+    padding: 30px; /* Espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar efeito de flutuação */
+    border-radius: 10px; /* Bordas arredondadas */
+    border: 1px solid #ddd; /* Borda suave */
+    text-align: justify; /* Justifica o texto */
 }
 
 h1 {
-    text-align: center;
-    margin-bottom: 20px;
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
 }
-
 
 
 
