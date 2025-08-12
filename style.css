@@ -1,40 +1,49 @@
-/* Resetando margens e paddings para todos os elementos */
+/* Resetando margens e padding de todos os elementos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilizando o body para centralizar o conteúdo */
+/* Estilos do body para centralizar a página */
 body {
     background-color: #ff0000; /* Cor de fundo suave */
     display: flex;
-    justify-content: center; /* Alinha o conteúdo horizontalmente */
-    align-items: center; /* Alinha o conteúdo verticalmente */
-    height: 100vh; /* Faz o conteúdo ocupar 100% da altura da tela */
+    justify-content: center; /* Alinha horizontalmente */
+    align-items: center; /* Alinha verticalmente */
+    height: 100vh;
     font-family: 'Arial', sans-serif;
 }
 
-/* Estilo para o container, simulando a página de livro */
-.container {
-    background-color: #ff0000; /* Cor de fundo do conteúdo */
-    color: #fffefe; /* Cor do texto */
-    width: 60%; /* Largura da "página" (ajuste conforme preferir) */
+/* "Livro" que vai centralizar a página */
+.book {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ocupa toda a largura da tela */
+    height: 100vh; /* Ocupa toda a altura da tela */
+}
+
+/* A página de livro propriamente dita */
+.page {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 254);
+    width: 70%; /* Largura da página */
     max-width: 900px; /* Largura máxima */
     min-width: 600px; /* Largura mínima */
-    padding: 30px; /* Espaçamento interno */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar efeito de flutuação */
-    border-radius: 10px; /* Bordas arredondadas */
-    border: 1px solid #ff0000; /* Borda suave */
-    text-align: justify; /* Justifica o texto */
+    padding: 40px; /* Espaço interno da página */
+    margin: 50px; /* Margens para dar a sensação de estar no centro */
+    border: 1px solid #ddd; /* Borda suave */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Efeito de sombra */
+    border-radius: 15px; /* Bordas arredondadas */
+    text-align: justify; /* Alinha o texto de maneira justificada */
+    line-height: 1.8; /* Maior espaçamento entre as linhas */
 }
 
+/* Estilizando o título */
 h1 {
-    text-align: center; /* Centraliza o título */
-    margin-bottom: 20px; /* Espaço abaixo do título */
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem; /* Tamanho do título */
+    color: #fff6f6;
 }
-
-
-
-
-
